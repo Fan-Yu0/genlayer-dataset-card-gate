@@ -71,3 +71,17 @@ pytest tests/direct/ -v
 - The final decision is deterministic; the LLM cannot approve a dataset by
   returning a friendly summary.
 - This contract records a procurement signal, not a legal certification.
+
+
+## Current deployment
+
+- Contract: `0xa5E1f8665F732edF2781D35F61E44a7Fd5753f45`
+- Network: GenLayer StudioNet (gasless)
+- Explorer: https://explorer-studio.genlayer.com/address/0xa5E1f8665F732edF2781D35F61E44a7Fd5753f45
+- Deployment transaction: `0xf3bccaaf664be796d1c09062e40965c9e104dd2c128142302f0ad8d161bcaaf8`
+- Live example: `squad` -> https://huggingface.co/datasets/rajpurkar/squad
+- Registration transaction: `0x4faebb7af66c8eace65e31acb30d8a584ba544f5c4d2353428401f78c926e891`
+- Assessment transaction: `0xc0b6c6d14ceb87ce1f1e61b19770e0603af4169a15b7877a230cca4b7bb3fa22`
+- Assessment result: APPROVED (decision = 1), risk tier minimal, required_tier 3,
+  required_mask 7, disclosure_mask 7, missing_mask 0, source consistency consistent,
+  round 1.
